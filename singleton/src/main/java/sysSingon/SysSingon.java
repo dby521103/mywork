@@ -2,7 +2,7 @@ package sysSingon;
 
 /**
  * 单利模式 成熟写法
- * 解决效率及线程安全问题
+ * 解决性能及线程安全问题
  */
 public class SysSingon {
 
