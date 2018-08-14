@@ -15,8 +15,9 @@ public class ProxyTest {
 
         Class<?> taber = f.getClass();
 
-        //通过jdk Proxy实现动态代理
+        //通过jdk Proxy实现字节码重组 动态生成被代理类的接口实现
         Poson proxy = (Poson)Proxy.newProxyInstance(taber.getClassLoader(),taber.getInterfaces(),hander);
+
         proxy.findWork();
 
     }
