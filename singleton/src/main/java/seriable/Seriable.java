@@ -18,6 +18,11 @@ public class Seriable  implements Serializable  {
     }
 
 
+    /**
+     * 实现深复制
+     *
+     * @return
+     */
     private Object readResolve(){
         System.out.println("read resolve");
         return seriable;
