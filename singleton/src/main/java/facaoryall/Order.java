@@ -2,7 +2,7 @@ package facaoryall;
 public class Order {
 
     private  String orderNo;
-    protected  String orderName;
+    private  String orderName;
 
     public Order() {
     }
@@ -27,4 +27,8 @@ public class Order {
     public void setOrderName(String orderName) {
         this.orderName = orderName;
     }
+
+
+
+
 }
